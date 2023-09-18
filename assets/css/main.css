@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+  }
+
+body,html{
+    font-family: Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+    background-color: #1b1f23;
+    color: white;
+    /* color: black; */
+    padding-top: 0;
+    margin-top: 0;
+}
+
+ #profilepic{
+     width: 100px;
+     height: 100px;
+     object-fit:cover;
+     border-radius:50%;
+ }
+
+ /* #maincontent{
+   vertical-align: middle;
+
+} */
+
+#maincontent i{
+    font-size: 50px;
+}
+
+#linkedinbutton{
+    background-color: #0073b1;
+    color: white;
+}
+
+#resumebutton{
+    background-color: #f73859;
+    color: white;
+}
+
+#githubbutton{
+    background-color: #3c4f65;
+    color: white;
+}
+
+#mailtobutton{
+    background-color: #22aa10;
+    color: white;
+}
+
+
+#expsummary{
+    line-height: 2;
+    letter-spacing: 2px;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#body{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills{
+width: 100px;
+height: 50px;
+}
+
+.hrule{
+    border: 1px solid #facf5a;
+}
+
+#maincontent a{
+    text-decoration: none !important;
+}
